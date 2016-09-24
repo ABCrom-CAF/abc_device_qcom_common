@@ -21,6 +21,9 @@ else
         persist.vendor.qcomsysd.enabled=1
 endif
 
+# include definitions for SDCLANG
+include device/qcom/common/sdclang/sdclang.mk
+
 PRODUCT_BRAND := qcom
 PRODUCT_AAPT_CONFIG += hdpi mdpi
 
